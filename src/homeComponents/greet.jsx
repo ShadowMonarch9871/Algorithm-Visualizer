@@ -1,19 +1,15 @@
-import React, {Component} from 'react';
-import "./style.css"
+import React, { Component } from "react";
+import "./style.css";
 class Greet extends Component {
-    render() {
-        return (
-            <div className="greet">
-                <h1 className="display-3">
-                    Algorithm Visualizer
-                </h1>
-                <hr className="dropdown-divider"/>
-                <h1 className="display-5">
-                    Visualize algorithms for a better understanding
-                </h1>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className="greet">
+        <h3 className="display-5">
+          Visualize algorithms for a better understanding
+        </h3>
+      </div>
+    );
+  }
 }
 
 export default Greet;
