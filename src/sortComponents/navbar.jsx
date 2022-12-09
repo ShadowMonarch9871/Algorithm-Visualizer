@@ -4,8 +4,8 @@ import {Link} from "react-router-dom";
 class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <span className="navbar-brand">Sorting Visualizer</span>
+            <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+                
                 <button className="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">

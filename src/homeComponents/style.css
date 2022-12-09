@@ -27,4 +27,6 @@
   color: white;
   background-color: black;
 }
-
+a[aria-current] {
+  color: red;
+ }

@@ -90,7 +90,7 @@ export default function CustomizedSlider() {
                 ThumbComponent={AirbnbThumbComponent}
                 getAriaLabel={(index) => (index === 0 ? 'Minimum price' : 'Maximum price')}
                 defaultValue={[20, 40]}
-                valueLabelDisplay="on"
+                valueLabelDisplay="off"
             />
         </div>
     );

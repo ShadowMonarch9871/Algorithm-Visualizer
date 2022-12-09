@@ -21,7 +21,7 @@ class Rect extends Component {
         if( this.props.rect.isSorted ){
             return "green";
         } else if( this.props.rect.isSorting ){
-            return "red";
+            return "cyan";
         } else{
             return "black"
         }
