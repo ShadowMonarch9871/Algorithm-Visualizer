@@ -18,6 +18,7 @@ class Rects extends Component {
                 {this.props.rects.map( (rect,rectidx)=>{
                     return (
                         <Rect
+                            
                             marg={margin}
                             key={rect.kk}
                             rect={rect}

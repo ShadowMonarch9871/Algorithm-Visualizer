@@ -51,10 +51,9 @@ export default function RangeSlider(props) {
                 value={value}
                 onChange={handleChange}
                 onChangeCommitted={handleCommit}
-                valueLabelDisplay="auto"
                 aria-labelledby="range-slider"
                 getAriaValueText={valuetext}
-                valueLabelDisplay="off"
+                valueLabelDisplay="on"
             />
             <Typography id="range-slider" gutterBottom>
                 Value range
